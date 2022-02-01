@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="utils.SuiteListener"/>
+  </listeners>
+  <test name="Test Automation(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="challengingDOMTest.ChallengingDomTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="beforeMethodTest"/>
+          <include name="verifyAnswerOnRefreshPage"/>
+          <include name="beforeTest"/>
+          <include name="verifyAnswerValue"/>
+          <include name="verifyFirstButtonOperation"/>
+          <include name="verifyThirdButtonOperation"/>
+          <include name="verifyNavigationToChallengingDom"/>
+          <include name="verifyTableHeaderText"/>
+          <include name="verifySecondButtonOperation"/>
+          <include name="verifyClickOnNthEditLink"/>
+          <include name="verifyTextBelowHeader"/>
+          <include name="verifyClickOnNthDeleteLink"/>
+        </methods>
+      </class> <!-- challengingDOMTest.ChallengingDomTest -->
+    </classes>
+  </test> <!-- Test Automation(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

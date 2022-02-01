@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>TestNG:  Test Automation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test Automation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>10/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Feb 01 19:45:24 GMT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>234 seconds (234737 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifyAnswerOnRefreshPage()'><b>verifyAnswerOnRefreshPage</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-1830969563" onClick='toggleBox("Output-1830969563", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1830969563" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1830969563">
+Verifying answer value should not be null<br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifyAnswerValue()'><b>verifyAnswerValue</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-876908140" onClick='toggleBox("Output-876908140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-876908140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-876908140">
+Verifying answer value should not be null<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifyClickOnNthDeleteLink()'><b>verifyClickOnNthDeleteLink</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-749693202" onClick='toggleBox("Output-749693202", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-749693202" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-749693202">
+Verifying clicking on Nth Delete link in table<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifyClickOnNthEditLink()'><b>verifyClickOnNthEditLink</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-1602530280" onClick='toggleBox("Output-1602530280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1602530280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1602530280">
+Verifying clicking on Nth Edit link in table<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifyFirstButtonOperation()'><b>verifyFirstButtonOperation</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-1540219992" onClick='toggleBox("Output-1540219992", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1540219992" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1540219992">
+Verifying First button is clickable<br/>
+verify Actual and expected button names<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifyNavigationToChallengingDom()'><b>verifyNavigationToChallengingDom</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-137659163" onClick='toggleBox("Output-137659163", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-137659163" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-137659163">
+Verifying for Page Title<br/>
+Verifying for Page Header element<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifySecondButtonOperation()'><b>verifySecondButtonOperation</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-1910492961" onClick='toggleBox("Output-1910492961", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1910492961" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1910492961">
+Verifying Second button is clickable<br/>
+verify Actual and expected button names<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifyTableHeaderText()'><b>verifyTableHeaderText</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-1847301137" onClick='toggleBox("Output-1847301137", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1847301137" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1847301137">
+Verifying Header Names in table<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifyTextBelowHeader()'><b>verifyTextBelowHeader</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-1112062307" onClick='toggleBox("Output-1112062307", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1112062307" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1112062307">
+Verifying text below page header is visible<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+<tr>
+<td title='com.org.test.ChallengingDomTest.verifyThirdButtonOperation()'><b>verifyThirdButtonOperation</b><br>Test class: com.org.test.ChallengingDomTest<br/>
+<a href="#Output-429269396" onClick='toggleBox("Output-429269396", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-429269396" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-429269396">
+Verifying Third button is clickable<br/>
+verify Actual and expected button names<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.org.test.ChallengingDomTest@5f8edcc5</td></tr>
+</table><p>
+</body>
+</html>

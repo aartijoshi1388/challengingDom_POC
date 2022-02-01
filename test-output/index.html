@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-sweet_suite" class="navigator-link">
+              <span class="suite-name border-passed">sweet_suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-sweet_suite" class="navigator-link ">
+                    <span>C:\Users\admin\Aarti_POC\Workspace\assignment\assignment\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-sweet_suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-sweet_suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-sweet_suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-sweet_suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-sweet_suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-sweet_suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-sweet_suite" class="hide-methods passed suite-sweet_suite"> (hide)</a> <!-- hide-methods passed suite-sweet_suite -->
+                      <a href="#" panel-name="suite-sweet_suite" class="show-methods passed suite-sweet_suite"> (show)</a> <!-- show-methods passed suite-sweet_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-sweet_suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifyAnswerOnRefreshPage">verifyAnswerOnRefreshPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifyAnswerValue">verifyAnswerValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifyClickOnNthDeleteLink">verifyClickOnNthDeleteLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifyClickOnNthEditLink">verifyClickOnNthEditLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifyFirstButtonOperation">verifyFirstButtonOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifyNavigationToChallengingDom">verifyNavigationToChallengingDom</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifySecondButtonOperation">verifySecondButtonOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifyTableHeaderText">verifyTableHeaderText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifyTextBelowHeader">verifyTextBelowHeader</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-sweet_suite" title="com.org.test.ChallengingDomTest" class="method navigator-link" hash-for-method="verifyThirdButtonOperation">verifyThirdButtonOperation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-sweet_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-sweet_suite" class="panel sweet_suite">
+          <div class="suite-sweet_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.org.test.ChallengingDomTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAnswerOnRefreshPage">
+                  </a> <!-- verifyAnswerOnRefreshPage -->
+                  <span class="method-name">verifyAnswerOnRefreshPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAnswerValue">
+                  </a> <!-- verifyAnswerValue -->
+                  <span class="method-name">verifyAnswerValue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickOnNthDeleteLink">
+                  </a> <!-- verifyClickOnNthDeleteLink -->
+                  <span class="method-name">verifyClickOnNthDeleteLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyClickOnNthEditLink">
+                  </a> <!-- verifyClickOnNthEditLink -->
+                  <span class="method-name">verifyClickOnNthEditLink</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFirstButtonOperation">
+                  </a> <!-- verifyFirstButtonOperation -->
+                  <span class="method-name">verifyFirstButtonOperation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNavigationToChallengingDom">
+                  </a> <!-- verifyNavigationToChallengingDom -->
+                  <span class="method-name">verifyNavigationToChallengingDom</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySecondButtonOperation">
+                  </a> <!-- verifySecondButtonOperation -->
+                  <span class="method-name">verifySecondButtonOperation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTableHeaderText">
+                  </a> <!-- verifyTableHeaderText -->
+                  <span class="method-name">verifyTableHeaderText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTextBelowHeader">
+                  </a> <!-- verifyTextBelowHeader -->
+                  <span class="method-name">verifyTextBelowHeader</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyThirdButtonOperation">
+                  </a> <!-- verifyThirdButtonOperation -->
+                  <span class="method-name">verifyThirdButtonOperation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-sweet_suite-class-passed -->
+        </div> <!-- panel sweet_suite -->
+        <div panel-name="test-xml-sweet_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\Aarti_POC\Workspace\assignment\assignment\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;sweet_suite&quot; verbose=&quot;10&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.org.utils.SuiteListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test Automation&quot;&gt;
+    &lt;parameter name=&quot;browserName&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.org.test.ChallengingDomTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Automation --&gt;
+&lt;/suite&gt; &lt;!-- sweet_suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-sweet_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for sweet_suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Automation (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-sweet_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for sweet_suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-sweet_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for sweet_suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_sweet_suite');
+function tableData_sweet_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyAnswerOnRefreshPage')
+data.setCell(0, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(0, 3, 2163);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyFirstButtonOperation')
+data.setCell(1, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(1, 3, 745);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyThirdButtonOperation')
+data.setCell(2, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(2, 3, 724);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySecondButtonOperation')
+data.setCell(3, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(3, 3, 549);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyClickOnNthDeleteLink')
+data.setCell(4, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(4, 3, 362);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyClickOnNthEditLink')
+data.setCell(5, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(5, 3, 307);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyTextBelowHeader')
+data.setCell(6, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(6, 3, 130);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyNavigationToChallengingDom')
+data.setCell(7, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(7, 3, 128);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyTableHeaderText')
+data.setCell(8, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(8, 3, 106);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyAnswerValue')
+data.setCell(9, 2, 'com.org.test.ChallengingDomTest')
+data.setCell(9, 3, 62);
+window.suiteTableData['sweet_suite']= { tableData: data, tableDiv: 'times-div-sweet_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <div id="times-div-sweet_suite">
+              </div> <!-- times-div-sweet_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-sweet_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for sweet_suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyThirdButtonOperation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying Third button is clickable</span>
+                <span class="reporter-method-output">verify Actual and expected button names</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyFirstButtonOperation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying First button is clickable</span>
+                <span class="reporter-method-output">verify Actual and expected button names</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAnswerValue</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying answer value should not be null</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyAnswerOnRefreshPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying answer value should not be null</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTableHeaderText</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying Header Names in table</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyTextBelowHeader</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying text below page header is visible</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyClickOnNthEditLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying clicking on Nth Edit link in table</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyClickOnNthDeleteLink</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying clicking on Nth Delete link in table</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySecondButtonOperation</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying Second button is clickable</span>
+                <span class="reporter-method-output">verify Actual and expected button names</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyNavigationToChallengingDom</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Verifying for Page Title</span>
+                <span class="reporter-method-output">Verifying for Page Header element</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-sweet_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-sweet_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.org.test.ChallengingDomTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifyAnswerOnRefreshPage())</span>
+                <span class="method-start">307 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAnswerOnRefreshPage</span>
+                <span class="method-start">8371 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifyAnswerOnRefreshPage status=SUCCESS method=ChallengingDomTest.verifyAnswerOnRe...)</span>
+                <span class="method-start">10536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifyAnswerValue())</span>
+                <span class="method-start">13686 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAnswerValue</span>
+                <span class="method-start">21450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifyAnswerValue status=SUCCESS method=ChallengingDomTest.verifyAnswerValue()[pri:...)</span>
+                <span class="method-start">21514 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifyClickOnNthDeleteLink())</span>
+                <span class="method-start">23358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyClickOnNthDeleteLink</span>
+                <span class="method-start">30487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifyClickOnNthDeleteLink status=SUCCESS method=ChallengingDomTest.verifyClickOnNt...)</span>
+                <span class="method-start">30850 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifyClickOnNthEditLink())</span>
+                <span class="method-start">99675 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyClickOnNthEditLink</span>
+                <span class="method-start">110092 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifyClickOnNthEditLink status=SUCCESS method=ChallengingDomTest.verifyClickOnNthE...)</span>
+                <span class="method-start">110401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifyFirstButtonOperation())</span>
+                <span class="method-start">111746 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyFirstButtonOperation</span>
+                <span class="method-start">118714 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifyFirstButtonOperation status=SUCCESS method=ChallengingDomTest.verifyFirstButt...)</span>
+                <span class="method-start">119461 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifyNavigationToChallengingDom())</span>
+                <span class="method-start">120626 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyNavigationToChallengingDom</span>
+                <span class="method-start">128034 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifyNavigationToChallengingDom status=SUCCESS method=ChallengingDomTest.verifyNav...)</span>
+                <span class="method-start">128163 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifySecondButtonOperation())</span>
+                <span class="method-start">130081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySecondButtonOperation</span>
+                <span class="method-start">136732 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifySecondButtonOperation status=SUCCESS method=ChallengingDomTest.verifySecondBu...)</span>
+                <span class="method-start">137282 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifyTableHeaderText())</span>
+                <span class="method-start">203400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTableHeaderText</span>
+                <span class="method-start">213410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifyTableHeaderText status=SUCCESS method=ChallengingDomTest.verifyTableHeaderTex...)</span>
+                <span class="method-start">213517 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifyTextBelowHeader())</span>
+                <span class="method-start">214967 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTextBelowHeader</span>
+                <span class="method-start">221710 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifyTextBelowHeader status=SUCCESS method=ChallengingDomTest.verifyTextBelowHeade...)</span>
+                <span class="method-start">221842 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethodTest(firefox, public void com.org.test.ChallengingDomTest.verifyThirdButtonOperation())</span>
+                <span class="method-start">223471 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyThirdButtonOperation</span>
+                <span class="method-start">229845 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethodTest([TestResult name=verifyThirdButtonOperation status=SUCCESS method=ChallengingDomTest.verifyThirdButt...)</span>
+                <span class="method-start">230569 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">afterTest</span>
+                <span class="method-start">233237 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

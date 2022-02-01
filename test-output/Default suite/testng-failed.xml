@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]">
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="challengingDOMTest.ChallengingDomTest">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="verifyAnswerValue"/>
+          <include name="verifyAnswerOnRefreshPage"/>
+          <include name="verifyFirstButtonOperation"/>
+          <include name="verifyThirdButtonOperation"/>
+          <include name="verifyNavigationToChallengingDom"/>
+          <include name="verifyTableHeaderText"/>
+          <include name="verifySecondButtonOperation"/>
+          <include name="verifyClickOnNthEditLink"/>
+          <include name="verifyTextBelowHeader"/>
+          <include name="verifyClickOnNthDeleteLink"/>
+        </methods>
+      </class> <!-- challengingDOMTest.ChallengingDomTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

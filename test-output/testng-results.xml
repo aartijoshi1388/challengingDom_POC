@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Verifying answer value should not be null]]>
+    </line>
+    <line>
+      <![CDATA[Verifying answer value should not be null]]>
+    </line>
+    <line>
+      <![CDATA[Verifying clicking on Nth Delete link in table]]>
+    </line>
+    <line>
+      <![CDATA[Verifying clicking on Nth Edit link in table]]>
+    </line>
+    <line>
+      <![CDATA[Verifying First button is clickable]]>
+    </line>
+    <line>
+      <![CDATA[verify Actual and expected button names]]>
+    </line>
+    <line>
+      <![CDATA[Verifying for Page Title]]>
+    </line>
+    <line>
+      <![CDATA[Verifying for Page Header element]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Second button is clickable]]>
+    </line>
+    <line>
+      <![CDATA[verify Actual and expected button names]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Header Names in table]]>
+    </line>
+    <line>
+      <![CDATA[Verifying text below page header is visible]]>
+    </line>
+    <line>
+      <![CDATA[Verifying Third button is clickable]]>
+    </line>
+    <line>
+      <![CDATA[verify Actual and expected button names]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-01T19:45:24Z" name="sweet_suite" finished-at="2022-02-01T19:49:19Z" duration-ms="234737">
+    <groups>
+    </groups>
+    <test started-at="2022-02-01T19:45:24Z" name="Test Automation" finished-at="2022-02-01T19:49:19Z" duration-ms="234737">
+      <class name="com.org.test.ChallengingDomTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:24Z" name="beforeTest" finished-at="2022-02-01T19:45:24Z" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:24Z" name="beforeMethodTest" finished-at="2022-02-01T19:45:32Z" duration-ms="8064" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifyAnswerOnRefreshPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifyAnswerOnRefreshPage()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:32Z" name="verifyAnswerOnRefreshPage" finished-at="2022-02-01T19:45:35Z" duration-ms="2163" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying answer value should not be null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAnswerOnRefreshPage -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:35Z" name="afterMethodTest" finished-at="2022-02-01T19:45:38Z" duration-ms="3150" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAnswerOnRefreshPage status=SUCCESS method=ChallengingDomTest.verifyAnswerOnRefreshPage()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying answer value should not be null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:38Z" name="beforeMethodTest" finished-at="2022-02-01T19:45:46Z" duration-ms="7764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifyAnswerValue()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifyAnswerValue()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:46Z" name="verifyAnswerValue" finished-at="2022-02-01T19:45:46Z" duration-ms="62" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying answer value should not be null]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAnswerValue -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:46Z" name="afterMethodTest" finished-at="2022-02-01T19:45:47Z" duration-ms="1843" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAnswerValue status=SUCCESS method=ChallengingDomTest.verifyAnswerValue()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying answer value should not be null]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:47Z" name="beforeMethodTest" finished-at="2022-02-01T19:45:55Z" duration-ms="7129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifyClickOnNthDeleteLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifyClickOnNthDeleteLink()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:55Z" name="verifyClickOnNthDeleteLink" finished-at="2022-02-01T19:45:55Z" duration-ms="362" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying clicking on Nth Delete link in table]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnNthDeleteLink -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:45:55Z" name="afterMethodTest" finished-at="2022-02-01T19:47:04Z" duration-ms="68823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnNthDeleteLink status=SUCCESS method=ChallengingDomTest.verifyClickOnNthDeleteLink()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying clicking on Nth Delete link in table]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:04Z" name="beforeMethodTest" finished-at="2022-02-01T19:47:14Z" duration-ms="10417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifyClickOnNthEditLink()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifyClickOnNthEditLink()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:14Z" name="verifyClickOnNthEditLink" finished-at="2022-02-01T19:47:14Z" duration-ms="307" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying clicking on Nth Edit link in table]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyClickOnNthEditLink -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:14Z" name="afterMethodTest" finished-at="2022-02-01T19:47:16Z" duration-ms="1344" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyClickOnNthEditLink status=SUCCESS method=ChallengingDomTest.verifyClickOnNthEditLink()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying clicking on Nth Edit link in table]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:16Z" name="beforeMethodTest" finished-at="2022-02-01T19:47:23Z" duration-ms="6968" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifyFirstButtonOperation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifyFirstButtonOperation()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:23Z" name="verifyFirstButtonOperation" finished-at="2022-02-01T19:47:24Z" duration-ms="745" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying First button is clickable]]>
+            </line>
+            <line>
+              <![CDATA[verify Actual and expected button names]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyFirstButtonOperation -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:24Z" name="afterMethodTest" finished-at="2022-02-01T19:47:25Z" duration-ms="1164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFirstButtonOperation status=SUCCESS method=ChallengingDomTest.verifyFirstButtonOperation()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying First button is clickable]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:25Z" name="beforeMethodTest" finished-at="2022-02-01T19:47:32Z" duration-ms="7408" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifyNavigationToChallengingDom()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifyNavigationToChallengingDom()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:32Z" name="verifyNavigationToChallengingDom" finished-at="2022-02-01T19:47:32Z" duration-ms="128" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying for Page Title]]>
+            </line>
+            <line>
+              <![CDATA[Verifying for Page Header element]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyNavigationToChallengingDom -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:32Z" name="afterMethodTest" finished-at="2022-02-01T19:47:34Z" duration-ms="1917" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyNavigationToChallengingDom status=SUCCESS method=ChallengingDomTest.verifyNavigationToChallengingDom()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying for Page Title]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:34Z" name="beforeMethodTest" finished-at="2022-02-01T19:47:41Z" duration-ms="6651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifySecondButtonOperation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifySecondButtonOperation()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:41Z" name="verifySecondButtonOperation" finished-at="2022-02-01T19:47:41Z" duration-ms="549" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying Second button is clickable]]>
+            </line>
+            <line>
+              <![CDATA[verify Actual and expected button names]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySecondButtonOperation -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:47:41Z" name="afterMethodTest" finished-at="2022-02-01T19:48:47Z" duration-ms="66117" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifySecondButtonOperation status=SUCCESS method=ChallengingDomTest.verifySecondButtonOperation()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying Second button is clickable]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:48:47Z" name="beforeMethodTest" finished-at="2022-02-01T19:48:57Z" duration-ms="10010" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifyTableHeaderText()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifyTableHeaderText()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:48:57Z" name="verifyTableHeaderText" finished-at="2022-02-01T19:48:58Z" duration-ms="106" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying Header Names in table]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTableHeaderText -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:48:58Z" name="afterMethodTest" finished-at="2022-02-01T19:48:59Z" duration-ms="1450" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTableHeaderText status=SUCCESS method=ChallengingDomTest.verifyTableHeaderText()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying Header Names in table]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:48:59Z" name="beforeMethodTest" finished-at="2022-02-01T19:49:06Z" duration-ms="6743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifyTextBelowHeader()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifyTextBelowHeader()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:49:06Z" name="verifyTextBelowHeader" finished-at="2022-02-01T19:49:06Z" duration-ms="130" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying text below page header is visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTextBelowHeader -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:49:06Z" name="afterMethodTest" finished-at="2022-02-01T19:49:08Z" duration-ms="1629" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyTextBelowHeader status=SUCCESS method=ChallengingDomTest.verifyTextBelowHeader()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying text below page header is visible]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="beforeMethodTest(java.lang.String, java.lang.reflect.Method)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:49:08Z" name="beforeMethodTest" finished-at="2022-02-01T19:49:14Z" duration-ms="6374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void com.org.test.ChallengingDomTest.verifyThirdButtonOperation()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethodTest -->
+        <test-method signature="verifyThirdButtonOperation()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:49:14Z" name="verifyThirdButtonOperation" finished-at="2022-02-01T19:49:15Z" duration-ms="724" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Verifying Third button is clickable]]>
+            </line>
+            <line>
+              <![CDATA[verify Actual and expected button names]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThirdButtonOperation -->
+        <test-method is-config="true" signature="afterMethodTest(org.testng.ITestResult)[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:49:15Z" name="afterMethodTest" finished-at="2022-02-01T19:49:17Z" duration-ms="2667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThirdButtonOperation status=SUCCESS method=ChallengingDomTest.verifyThirdButtonOperation()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5] output=Verifying Third button is clickable]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethodTest -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.org.test.ChallengingDomTest@5f8edcc5]" started-at="2022-02-01T19:49:17Z" name="afterTest" finished-at="2022-02-01T19:49:19Z" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.org.test.ChallengingDomTest -->
+    </test> <!-- Test Automation -->
+  </suite> <!-- sweet_suite -->
+</testng-results>

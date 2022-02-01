@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [sweet_suite]" verbose="10">
+  <parameter name="browserName" value="firefox"/>
+  <listeners>
+    <listener class-name="com.org.utils.SuiteListener"/>
+  </listeners>
+  <test name="Test Automation(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="com.org.test.ChallengingDomTest">
+        <methods>
+          <include name="verifySecondButtonOperation"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+          <include name="verifyThirdButtonOperation"/>
+          <include name="afterMethodTest"/>
+          <include name="verifyFirstButtonOperation"/>
+          <include name="beforeMethodTest"/>
+        </methods>
+      </class> <!-- com.org.test.ChallengingDomTest -->
+    </classes>
+  </test> <!-- Test Automation(failed) -->
+</suite> <!-- Failed suite [sweet_suite] -->

@@ -34,8 +34,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>6.8</version>
-			<!--   <scope>test</scope>-->
+			<version>6.9.8</version>
 		</dependency>
 
 		<dependency>
@@ -101,10 +100,10 @@
 					<artifactId>maven-surefire-plugin</artifactId>
 					<version>2.19.1</version>
 					<configuration>
-						<testFailureIgnore>true</testFailureIgnore>
+						<suiteXmlFiles>
+							<suiteXmlFile>testng.xml</suiteXmlFile>
+						</suiteXmlFiles>
 					</configuration>
-
-
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>

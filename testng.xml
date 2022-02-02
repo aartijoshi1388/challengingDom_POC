@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="challengingDom_suite" verbose="10">
+<suite name="challengingDom_suite">
 <listeners>
  <listener class-name="com.org.utils.SuiteListener"></listener>
 </listeners>
